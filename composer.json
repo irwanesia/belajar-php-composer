@@ -1,0 +1,19 @@
+{
+  "name": "programmerzamannow/belajar-php-composer",
+  "description": "Belajar PHP Composer",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Programmerzamannow\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "irwanesia",
+      "email": "irwan.codeir@gmail.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "3.5.0"
+  }
+}
